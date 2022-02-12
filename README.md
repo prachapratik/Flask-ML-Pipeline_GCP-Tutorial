@@ -18,7 +18,7 @@ This project demonstrates how a Flask ML app can be deployed on Google Cloud Pla
 
 #### On you LOCAL Device (Laptop)
 All the application files are contained in the folder 'app_files'. The goal is to build an ML model using Decision Tree Classifier. Start by cloning the repo to your local drive.
-- Step 1: Inside folder 'app_files' open the code 'model.py'. Add some lines there to train a regression model (ANY regression model). Run 'model.py' so the 'treemodel.pkl' gets created.
+- Step 1: Inside folder 'app_files' open the code 'model.py'. **Add some lines there to train a regression model (ANY regression model)**. Run 'model.py' so the 'treemodel.pkl' gets created.
 - Step 2: Run: python app.py. Check out the localhost app. It should work properly. Take a snapshot of the URL and your app. If not please do necessary debugging.
 
 #### To be done on GCP
