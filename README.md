@@ -31,7 +31,6 @@ Let's continute with Cloud Deployment
 - Step 6: Take a picture of your app with the sample URL (https://console.developers.google.com/run?project=fb-mle-feb-22). SUBMIT THIS PICTURE FOR YOUR ASSIGNMENT. Also add a snaptshot with the input feature and predicted output you got from querying the model using request.py. Please note an app deployed on GCP might not automatically be exposed to any user on the internet. It is usually exposed to project owner and other principles (who has necessary permission). Make sure your app is accessable to all users. Ideally the argument of cloudbuild.yml should make the app accessible to all users, but sometime it might not happen.
 -  To add permission to all user, go to permissions tab in the app **(Principal: allUsers, Role:Cloud Run Invoker)**
 -  Now try the url in any browser to see the application working via an UI. Also download the request.py from the same branch and update the url and run it to query the api, without an UI. This is similar to what we did in week 13 google vision api project)
-- 
 #### Now you have uploaded your OWN ML app on GCP with a CD Pipeline! Congratulations..
 - Step 7: Clean up. Please DELETE your Triggers and your ML app before you go. Make sure you have delete permission (Often app deletion is not given to MLE/scientistis and needs to be seeked)
 
