@@ -24,7 +24,7 @@ All the application files are contained in the folder 'app_files'. The goal is t
 #### To be done on GCP
 Make sure your instructor has given all the necessary GCP Permission. An important part of the assignment is also to learn to parse the logs and understand permission errors or debug any coding error for which build might fail or not get triggered. 
 
-Let's continute with Cloud 
+Let's continute with Cloud Deployment
 - Step 3: Now, fork the Github: https://github.com/dpaul0501/Flask-ML-Pipeline_GCP-Tutorial/tree/main to your Github account. This is important for the CD pipeline that we will build.
 - Step 4: Go to the page https://console.cloud.google.com/cloud-build/builds?project=fb-mle-feb-22 and create a PUSH trigger using Dockerfile for your forked github project page (Folow instructions shown in class). RUN the trigger and check logs. This step will not deploy the app
 - Step 5: Repeat Step 4 but use YAML as your source. In the YAML append your name to the name of the app (marked with comment in (cloudbuild.yaml) RUN the trigger and check the app. Check the cloud Build on https://console.cloud.google.com/cloud-build/triggers?project=fb-mle-feb-22
